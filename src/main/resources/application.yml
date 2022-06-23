@@ -1,0 +1,17 @@
+spring:
+  datasource:
+   driver-class-name: oracle.jdbc.dirver.OracleDirver
+   url: jdbc:oracle:thin:@192.168.111.132:1539/xe
+   username: c##spring
+   password: spring00
+
+  security:
+    user:
+      name: shim
+      password: shim
+
+server:
+  port: 9000
+
+
+
